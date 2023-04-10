@@ -3,6 +3,7 @@ import Seminar3.S3Task2;
 import Seminar3.S3Task3;
 import Seminar4.S4Task1;
 import Seminar4.S4Task2;
+import Seminar4.S4Task3;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +32,11 @@ public class Main {
 
         S4Task2 s4Task2 = new S4Task2();
         s4Task2.Metod();
+
+        System.out.println("\n--------------------");
+
+        S4Task3 s4Task3 = new S4Task3();
+        s4Task3.Calculator();
 
 
 
