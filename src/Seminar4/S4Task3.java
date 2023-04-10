@@ -29,7 +29,7 @@ public class S4Task3 {
                     reset_operation(number_list);
                     number1 = number_list.getLast();
                 } else {
-                    System.out.println("Текущий результат отсутствует. Давайте начнем сначала!");
+                    System.out.println("Текущий результат отсутствует. Начните сначала");
                     number1 = input_number(sc);
                 }
                 operation = input_operation(sc);
@@ -55,7 +55,7 @@ public class S4Task3 {
         return number;
     }
 
-    // Функция ввода оператора действия
+    // Ввод оператора действия
     public static String input_operation(Scanner scanner) {
         System.out.println("Введите оператор действия (+, -, *, /) или 'Отмена'");
         String oper = scanner.next().toLowerCase();
@@ -68,7 +68,7 @@ public class S4Task3 {
         return oper;
     }
 
-    // Функция отмены последнего действия
+    // Отмена последнего действия
     public static void reset_operation(Deque<Double> list) {
         if (!list.isEmpty()) {
             list.removeLast();
@@ -80,7 +80,7 @@ public class S4Task3 {
         }
     }
 
-    // Функция калькуляции чисел
+    // Калькуляция чисел
     public static double calculation(double num1, double num2, String oper) {
         double result = 0.0;
         switch (oper.toLowerCase()) {
@@ -100,7 +100,7 @@ public class S4Task3 {
         return result;
     }
 
-    // Функция добавления элементов в очередь
+    // Добавление элементов в очередь
     public static void add_element(Deque<Double> list, double element) {
         list.addLast(element);
     }
