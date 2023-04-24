@@ -7,6 +7,7 @@ import Seminar4.S4Task3;
 import Seminar5.S5Task1;
 import Seminar5.S5Task2;
 import Seminar5.S5Task3;
+import Seminar6.SortComp;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,20 +44,25 @@ public class Main {
 
 //        Seminar 5
 
-        System.out.println("\n--------------------");
+//        System.out.println("\n--------------------");
+//
+//        S5Task1 s5Task1 = new S5Task1();
+//        s5Task1.TelephoneBook();
+//
+//        System.out.println("\n--------------------");
+//
+//        S5Task2 s5Task2 = new S5Task2();
+//        s5Task2.StaffList();
+//
+//        System.out.println("\n--------------------");
+//
+//        S5Task3 s5Task3 = new S5Task3();
+//        s5Task3.Chess();
 
-        S5Task1 s5Task1 = new S5Task1();
-        s5Task1.TelephoneBook();
+//        System.out.println("\n--------------------");
 
-        System.out.println("\n--------------------");
-
-        S5Task2 s5Task2 = new S5Task2();
-        s5Task2.StaffList();
-
-        System.out.println("\n--------------------");
-
-        S5Task3 s5Task3 = new S5Task3();
-        s5Task3.Chess();
+        SortComp sortComp = new SortComp();
+        sortComp.SortComp();
 
 
 
